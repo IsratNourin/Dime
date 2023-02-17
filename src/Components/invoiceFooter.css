@@ -1,0 +1,16 @@
+.invoiceField {
+    border: 1px solid #C1C1CE;
+box-shadow: 0px 4px 8px rgba(20, 20, 24, 0.08);
+border-radius: 4px;
+padding: 20px 24px;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+.invoiceField label {
+    margin-top: 7px;
+}
+
+.saveBtn {
+    background: #4C00EE
+}

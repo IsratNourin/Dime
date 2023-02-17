@@ -9,8 +9,8 @@ const Header = () => {
     <>
       <header>
         <Container>
-          <Row >
-            <Col>
+          <Row>
+            <Col className="title">
               <h1>Invoice</h1>
               <p>#</p>
             </Col>
@@ -19,37 +19,43 @@ const Header = () => {
               <a href="#">View Walkthrough</a>
             </Col>
             <Col>
-              <Button variant="primary">Add Company Info</Button>
+              <Button variant="primary" className="addCompanyBtn dimeBtn right">Add Company Info</Button>
             </Col>
+
           </Row>
           <Row>
-            <hr />
+            <Col>
+              <hr /></Col>
           </Row>
+
         </Container>
       </header>
+
+
       <div className="summary">
+
         <Container>
           <Row>
             <Col>
               <Row>
-                <Col>
+                <Col className="billing">
                   <p>Bill To</p>
-                  <Button variant="primary">Add Client</Button>
+                  <Button variant="primary" className="dimeBtn">Add Client</Button>
                 </Col>
-                <Col>
+                <Col className="issueDate">
                   <p>Issue Date</p>
-                  <p>Not set</p>
+                  <i>Not set</i>
                 </Col>
               </Row>
             </Col>
 
             <Col>
               <Row>
-                <Col>
+                <Col className="dueDate">
                   <p>Due Date</p>
-                  <p>Not set</p>
+                  <i>Not set</i>
                 </Col>
-                <Col>
+                <Col className="invoiceTotal">
                   <h4>Invoice Total</h4>
                   <h3>$0.00</h3>
                 </Col>

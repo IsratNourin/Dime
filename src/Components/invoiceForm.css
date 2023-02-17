@@ -1,3 +1,123 @@
 .subTotal {
     display: inline;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.invoiceForm {
+    margin-top: 24px;
+    font-size: 14px;
+    color: #1D1D1D;
+
+}
+
+.listHeader {
+    padding: 0 48px;
+}
+
+.invoiceForm p {
+    font-weight: 400;
+    
+}
+
+
+
+.right-align {
+    text-align: right;
+}
+
+.listItem {
+    background-color: #F3F3F8;
+    border-radius: 4px;
+    padding: 16px 48px;
+}
+
+.invoiceFooter {
+    margin-top: 16px;
+    font-size: 13px;
+}
+
+.form-control {
+    border: none;
+    border: 1px solid #C1C1CE;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn-light {
+    margin-left: 10px;
+}
+
+.addItemBtn {
+    border: 1px solid #E7E7ED;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #4C00EE;
+}
+
+.subTotalVal {
+    text-align: right;
+} 
+
+.additionalCharge {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+
+.additionalChargeVal {
+    margin-top: 24px;
+}
+
+.totalAmount {
+    margin-top: 16px;
+    font-weight: 700;
+}
+
+
+.commentBox {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.commentBox input {
+    height: 92px;
+    border: 4px solid #F3F3F8;
+    border-radius: 4px;
+}
+
+
+
+.attachmentBtn {
+    display: inline-block;
+    padding: 60px 75px;
+    border: 1px dashed #C1C1CE;
+    border-radius: 8px;
+    margin-top: 24px;
+
+}
+
+.attachmentBtn:hover {
+    cursor: pointer;
+}
+
+.attachmentBtn:hover button {
+    background-color: #d3d4d5;
+    color: #fff;
+
+}
+
+
+.attachmentBtn button {
+    background: #F3F3F8;
+    border-radius: 4px;
+    color: #5F6073;
+    border : none;
+}
+
+.attachmentBtn button:hover {
+    background-color: #d3d4d5;
+    color: #fff;
 }

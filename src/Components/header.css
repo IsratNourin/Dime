@@ -1,13 +1,96 @@
 /***************** HEADER ****************/
 
+header {
+    color: #1D1D1D;
+    padding-top: 24px;
+    font-weight: 400;
+    background-color: #F3F3F8;
+}
+
+.summary {
+    background-color: #F3F3F8;
+    padding-top: 10px;
+    padding-bottom: 45px;
+
+}
+
 .right {
     float: right;
     overflow: hidden;
 }
 
 
+.title h1 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #1D1D1D;
+}
+
+.title p {
+    font-size: 14px;
+}
+
+.link {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.link p {
+    font-size: 16px;
+    margin-bottom: auto;
+
+}
 
 .link a {
     text-decoration: none;
+    color: #4C00EE;
     
+}
+
+
+.dimeBtn {
+    background-color: #4C00EE;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+
+}
+.addCompanyBtn {
+    margin-top: 20px;
+}
+
+.billing {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+.issueDate {
+    text-align: right;
+}
+
+.issueDate p,
+.dueDate p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.issueDate i,
+.dueDate i {
+    font-size: 16px;
+}
+
+.invoiceTotal {
+    text-align: right;
+}
+
+.invoiceTotal h4 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.invoiceTotal h3 {
+    font-weight: 600;
+    font-size: 32px;
 }
