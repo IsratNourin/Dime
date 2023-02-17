@@ -1,0 +1,13 @@
+/***************** HEADER ****************/
+
+.right {
+    float: right;
+    overflow: hidden;
+}
+
+
+
+.link a {
+    text-decoration: none;
+    
+}
